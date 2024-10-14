@@ -35,6 +35,32 @@ div > .h4{
     color: blue;
 }
 
+/* SECTION 2 Specificity */
+/* Style attributes, id, classes, element */
+/* 0 1 0 0 */
+#title{
+    color: purple
+}
+/* 0 0 1 0 */
+h1{
+    color: red;
+}
+/* 0 0 0 1 */
+h1{
+    color: green;
+}
+/* 0 0 1 0 */
+.title{
+    color: red;
+}
+/*  0 0 0 11 */
+ul li ol li ul li ol li ul li h1{
+    color: blue;
+}
+/* 0 0 0 1 */
+h1{
+    color: brown;
+}
 *{
     color: yellow;
 }
