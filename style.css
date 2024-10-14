@@ -13,3 +13,28 @@ h1{
 [href] {
     color: pink;
 }
+
+/* SECTION 2 */
+.h1 + .h2{
+    color: red;
+}
+
+.h1 ~ .h3{
+    color: green;
+}
+
+div > .h4{
+    color: purple;
+}
+
+/* .div > .h4{
+    color: orange;
+} */
+
+.div .h4{
+    color: blue;
+}
+
+*{
+    color: yellow;
+}
