@@ -64,3 +64,16 @@ h1{
 *{
     color: yellow;
 }
+/* BACKGROUND COLOR */
+html{
+    background-color: pink;
+}
+
+body{
+    color: red;
+    background-color: bisque;
+}
+
+div{
+   background-color: yellow;
+}
