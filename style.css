@@ -87,3 +87,12 @@ body{
 strong{
     font-weight: 700;
 }
+
+/* FONT SIZE */
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 22px;
+}
