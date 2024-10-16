@@ -109,3 +109,21 @@ p{
     line-height: 1.5;
     letter-spacing: 1.4px;
 }
+/* TEXT-DECORATION/TEXT-ALIGNMENT */
+h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    /* text-decoration: line-through underline overline;
+    text-decoration-color: red;
+    text-decoration-style: dashed; */
+    text-decoration: underline red dashed 5px;
+    text-align: right;
+}
+
+p{
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 1.4px;
+    text-align: justify;
+}
