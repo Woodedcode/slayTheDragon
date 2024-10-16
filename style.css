@@ -148,4 +148,57 @@ div{
     margin: 50px;
 }
 /* CSS PROJECT */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 
+*,
+*::before,
+*::after{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+line-height: 1.5;
+}
+
+body{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.card{
+    border: 1px solid red;
+    width: 600px;
+    background-color: #000;
+    border-radius: 10px;
+    margin: 100px auto 0;
+    padding: 16px;
+}
+
+.name{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+    color: grey;
+}
+
+.title{
+    color: whitesmoke;
+    margin: 16px 0;
+    text-transform: capitalize;
+}
+
+.info{
+    color: grey;
+    max-width: 60ch;
+}
+
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    background-color: whitesmoke;
+    border-color: black;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
