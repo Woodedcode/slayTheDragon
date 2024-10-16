@@ -96,3 +96,16 @@ h1{
 p{
     font-size: 22px;
 }
+
+/* LINE-HEIGHT/LETTER-SPACING/TEXT-TRANSFORM */
+h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 1.4px;
+}
