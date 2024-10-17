@@ -202,3 +202,74 @@ button{
     font-weight: 700;
     margin-top: 16px;
 }
+/* CSS UNITS px,rem,em,dvh,dvw,ch */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+/* ABSOLUTE UNIT */
+/* PX */
+/* DOES NOT SCALE/PX DOES NOT SCALE */
+ ul{
+    font-size: 16px;
+} 
+
+
+/* RELATIVE UNITS */
+/* em, rem, vh, dvh, dvw, ch */
+
+ ul{
+    font-size: 1rem;
+} 
+
+ul{
+    background-color: lightblue;
+    list-style: none;
+    padding: 0;
+    font-size: 2rem;
+}
+
+li{
+    font-size: 1rem;
+}
+
+ .btn{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 5rem;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+} 
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+ body{
+    height: 50vh;
+    border: 5px solid blue;
+}
+
+.hero{
+    border: 5px solid red;
+    height: 50%;
+    width: 100vw;
+    background-color: coral;
+}
+
+.title{
+    border: 5px solid green;
+    background-color: lightgreen;
+    height: 50%;
+} 
+
+.description{
+    max-width: 60ch;
+}
+
